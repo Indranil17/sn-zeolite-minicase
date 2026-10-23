@@ -1,0 +1,43 @@
+{
+ "model": "medium",
+ "dispersion": true,
+ "calc": "mace",
+ "derived": [
+  {
+   "label": "T1_open1",
+   "quantity": "E_hydrolysis",
+   "eV": 0.08822727207601133,
+   "kJ_per_mol": 8.512608346253954
+  },
+  {
+   "label": "T1_open2",
+   "quantity": "E_hydrolysis",
+   "eV": -0.07772571793984184,
+   "kJ_per_mol": -7.49936589542564
+  },
+  {
+   "label": "T1_open3",
+   "quantity": "E_hydrolysis",
+   "eV": -0.31721180111330227,
+   "kJ_per_mol": -30.60618063041697
+  },
+  {
+   "label": "T1_open4",
+   "quantity": "E_hydrolysis",
+   "eV": -0.15383108659867162,
+   "kJ_per_mol": -14.842392390472831
+  },
+  {
+   "label": "T1_closed_1w",
+   "quantity": "E_bind_1w",
+   "eV": -0.5116066084736133,
+   "kJ_per_mol": -49.36236361857657
+  },
+  {
+   "label": "T1_closed_2w",
+   "quantity": "E_bind_2w",
+   "eV": -0.4617350777745912,
+   "kJ_per_mol": -44.550508979081435
+  }
+ ]
+}

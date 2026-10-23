@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "snmini: Sn sites in a zeolite, in miniature"
+authors:
+  - family-names: Saha
+    given-names: Indranil
+    orcid: "https://orcid.org/0009-0005-6111-3599"
+version: 0.1.0
+license: MIT
+type: software
+repository-code: "https://github.com/Indranil17/sn-zeolite-minicase"
+abstract: "A runnable miniature of the Sn zeolite question: Sn in CHA as closed, open (hydrolysed) and hydrated sites, a foundation model screen, molecular dynamics, well tempered metadynamics on a coordination number, and GIPAW 119Sn shifts weighted by the populations. Free software only."
+keywords:
+  - zeolite
+  - tin
+  - 119Sn NMR
+  - GIPAW
+  - metadynamics
+  - machine learning potential

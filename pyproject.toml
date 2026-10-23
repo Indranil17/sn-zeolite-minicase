@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snmini"
+version = "0.1.0"
+description = "Sn sites in a zeolite, in miniature: hydration free energy and 119Sn NMR"
+readme = "README.md"
+authors = [{ name = "Indranil Saha" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "ase>=3.23", "spglib>=2.5", "matplotlib"]
+
+[project.optional-dependencies]
+mace = ["mace-torch", "torch-dftd"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning:spglib.*"]
+
+[project.urls]
+Repository = "https://github.com/Indranil17/sn-zeolite-minicase"

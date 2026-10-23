@@ -1,0 +1,21 @@
+{
+ "per_state": {
+  "5c": {
+   "mean_eV": -29892.985639383143,
+   "std_eV": 0.05842302706218402,
+   "se_kJ": 1.029160783841125,
+   "n": 30
+  },
+  "6c": {
+   "mean_eV": -29892.88517099272,
+   "std_eV": 0.08618977887747868,
+   "se_kJ": 1.5182907296848176,
+   "n": 30
+  }
+ },
+ "dF_correction_6c_minus_5c_kJmol": {
+  "first_order": 9.693692650136255,
+  "second_cumulant_350K": 3.2709694056357685,
+  "note": "mean offset PBE minus MACE, 6c minus 5c; second cumulant = first order - (var6c - var5c) / (2 kT), kT at 350 K, variances from std_eV above. The scatter (5.6 and 8.3 kJ/mol) exceeds kT = 2.9 kJ/mol, so the first order value is only indicative. An earlier version of this file listed 1.83 as the second value; it does not follow from the stored mean and std at 350 K."
+ }
+}

@@ -1,0 +1,56 @@
+file,description,n_atoms,formula,sn_neighbours_2p45,sn_O_within_2p7,n_waters,water_O_to_Sn,CN,delta_119Sn_ppm,replica
+1_built/T1_closed.cif,"T1_closed, builder geometry",36,O24Si11Sn,4,1.95 1.95 1.95 1.95,0,,,,
+1_built/T1_open1.cif,"T1_open1, builder geometry",39,H2O25Si11Sn,5,1.95 1.95 1.95 1.95 2.14,0,,,,
+1_built/T1_open2.cif,"T1_open2, builder geometry",39,H2O25Si11Sn,5,1.95 1.95 1.95 1.95 2.27,0,,,,
+1_built/T1_open3.cif,"T1_open3, builder geometry",39,H2O25Si11Sn,5,1.95 1.95 1.95 1.95 2.13,0,,,,
+1_built/T1_open4.cif,"T1_open4, builder geometry",39,H2O25Si11Sn,5,1.95 1.95 1.95 1.95 2.24,0,,,,
+1_built/T1_closed_1w.cif,"T1_closed_1w, builder geometry",39,H2O25Si11Sn,5,1.95 1.95 1.95 1.95 2.25,1,2.25,0.704,,
+1_built/T1_closed_2w.cif,"T1_closed_2w, builder geometry",42,H4O26Si11Sn,6,1.95 1.95 1.95 1.95 2.25 2.25,2,2.25 2.25,1.408,,
+1_built/md_cell.cif,"md_cell, builder geometry",54,H12O30Si11Sn,6,1.95 1.95 1.95 1.95 2.25 2.25,6,2.25 2.25 3.95,1.52,,
+1_built/H2O_gas.cif,"H2O_gas, builder geometry",3,H2O,,,,,,,
+2_relaxed/T1_closed.cif,"T1_closed, relaxed, MACE-MP-0 + D3",36,O24Si11Sn,4,1.93 1.93 1.95 1.96,0,,,-422.5,
+2_relaxed/T1_open1.cif,"T1_open1, relaxed, MACE-MP-0 + D3",39,H2O25Si11Sn,5,1.94 1.97 1.97 2.00 2.38,0,,,-515.4,
+2_relaxed/T1_open2.cif,"T1_open2, relaxed, MACE-MP-0 + D3",39,H2O25Si11Sn,5,1.97 1.98 1.99 2.02 2.15,0,,,-508.4,
+2_relaxed/T1_open3.cif,"T1_open3, relaxed, MACE-MP-0 + D3",39,H2O25Si11Sn,5,1.97 1.99 2.01 2.02 2.18,0,,,-514.3,
+2_relaxed/T1_open4.cif,"T1_open4, relaxed, MACE-MP-0 + D3",39,H2O25Si11Sn,5,1.96 1.96 1.97 2.08 2.10,0,,,-544.0,
+2_relaxed/T1_closed_1w.cif,"T1_closed_1w, relaxed, MACE-MP-0 + D3",39,H2O25Si11Sn,4,1.95 1.95 1.96 1.96 2.50,1,2.50,0.556,-519.8,
+2_relaxed/T1_closed_2w.cif,"T1_closed_2w, relaxed, MACE-MP-0 + D3",42,H4O26Si11Sn,5,1.97 1.97 1.98 1.99 2.42 2.60,2,2.42 2.60,1.106,-631.4,
+2_relaxed/md_cell.cif,"md_cell, relaxed, MACE-MP-0 + D3",54,H12O30Si11Sn,5,1.95 1.99 2.00 2.04 2.12,6,2.12 3.62 3.80,1.14,,
+2_relaxed/H2O_gas.cif,"H2O_gas, relaxed, MACE-MP-0 + D3",3,H2O,,,,,,,
+1_built/CHA_framework.cif,"empty CHA cell, pure silica, IZA structure",36,O24Si12,,,,,,,
+3_dynamics/md_cell_start.cif,"water loaded cell (54 atoms), first frame of the unbiased MD",54,H12O30Si11Sn,5,1.94 1.97 1.99 2.00 2.06,6,2.06 3.72 3.80,1.15,,
+3_dynamics/md_cell_end_of_md.cif,"water loaded cell, last frame of the unbiased MD (100 ps)",54,H12O30Si11Sn,5,1.95 1.99 1.99 2.06 2.23,6,2.23 3.82 3.90,1.03,,
+3_dynamics/md_unbiased.extxyz,"unbiased MD, every 30th stored frame, 61 frames",,,,,,,,,
+3_dynamics/metad_example_4_coordinate.cif,"metadynamics frame of the 4 coordinate state (CN 0.40, 53.8 ps)",54,H12O30Si11Sn,4,1.89 1.91 1.96 2.01,6,3.64 3.81 4.09,0.4,,
+3_dynamics/metad_example_5_coordinate.cif,"metadynamics frame of the 5 coordinate state (CN 1.10, 42.9 ps)",54,H12O30Si11Sn,5,2.00 2.00 2.01 2.03 2.22,6,2.22 3.42 3.98,1.1,,
+3_dynamics/metad_example_6_coordinate.cif,"metadynamics frame of the 6 coordinate state (CN 1.55, 47.6 ps)",54,H12O30Si11Sn,5,1.89 1.98 2.02 2.11 2.18 2.63,6,2.18 2.63 3.71,1.551,,
+3_dynamics/metad_n5a_trajectory.extxyz,"metadynamics run started from the 5 coordinate state, every 10th stored frame (1 ps), CN and time in the frame header",,,,,,,,,
+3_dynamics/metad_n6a_trajectory.extxyz,"metadynamics run started from the 6 coordinate state, every 10th stored frame (1 ps), CN and time in the frame header",,,,,,,,,
+4_gipaw_snapshots/5c_2x2x2_snapshot_01.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.92 1.92 2.04 2.05 2.12,6,2.12 3.61 3.83,1.119,-540.5,r1
+4_gipaw_snapshots/5c_2x2x2_snapshot_02.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,2.01 2.02 2.04 2.05 2.20,6,2.20 3.62 3.76,1.119,-619.1,r1
+4_gipaw_snapshots/5c_2x2x2_snapshot_03.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.93 1.96 1.97 2.09 2.28,6,2.28 3.95 4.20,0.961,-578.7,r1
+4_gipaw_snapshots/5c_2x2x2_snapshot_04.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.87 2.00 2.02 2.10 2.19,6,2.19 3.85 4.11,1.013,-594.8,r1
+4_gipaw_snapshots/5c_2x2x2_snapshot_05.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.95 1.97 1.98 2.10 2.20,6,2.20 3.89 3.97,1.053,-582.7,r1
+4_gipaw_snapshots/5c_2x2x2_snapshot_06.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.89 1.99 2.01 2.02 2.13,6,2.13 3.97 4.04,1.067,-551.5,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_07.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.99 2.01 2.04 2.05 2.11,6,2.05 3.83 3.89,1.1,-597.9,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_08.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,2.00 2.01 2.01 2.05 2.08,6,2.05 3.44 3.84,1.197,-578.8,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_09.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.96 1.98 2.03 2.08 2.22,6,2.22 3.69 3.88,1.06,-585.0,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_10.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.95 2.01 2.01 2.06 2.22,6,2.22 3.63 3.92,1.129,-560.0,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_11.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.88 1.88 1.94 2.04 2.17,6,2.17 3.75 4.01,1.019,-552.9,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_12.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.97 1.99 1.99 2.08 2.16,6,2.16 3.58 3.99,1.131,-545.5,r2
+4_gipaw_snapshots/5c_2x2x2_snapshot_13.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.99 2.03 2.03 2.05 2.19,6,2.19 3.55 3.95,1.086,-642.6,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_14.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.96 2.02 2.04 2.14 2.15,6,2.15 3.42 3.78,1.209,-599.0,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_15.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.90 1.97 2.00 2.03 2.08,6,2.08 3.84 3.89,1.132,-536.5,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_16.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.94 1.95 2.06 2.07 2.21,6,2.21 3.93 3.93,1.009,-592.3,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_17.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.99 2.03 2.04 2.04 2.08,6,2.08 3.54 3.56,1.193,-611.6,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_18.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.93 1.93 2.01 2.06 2.22,6,2.22 3.69 3.71,1.128,-558.5,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_19.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.89 1.94 1.98 2.06 2.19,6,2.19 3.56 3.83,1.067,-578.8,r3
+4_gipaw_snapshots/5c_2x2x2_snapshot_20.cif,"5 coordinate snapshot, 2x2x2 k",54,H12O30Si11Sn,5,1.98 1.98 2.01 2.07 2.15,6,2.15 3.54 3.66,1.217,-562.6,r3
+4_gipaw_snapshots/5c_3x3x3_snapshot_1.cif,"5 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,5,1.95 1.99 2.00 2.04 2.12,6,2.12 3.62 3.80,1.14,-577.5,r1
+4_gipaw_snapshots/5c_3x3x3_snapshot_2.cif,"5 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,5,1.92 1.98 1.98 2.02 2.05,6,2.05 3.96 3.99,1.089,-544.3,r2
+4_gipaw_snapshots/5c_3x3x3_snapshot_3.cif,"5 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,5,1.99 2.02 2.04 2.04 2.17,6,2.17 3.66 4.03,1.029,-606.3,r3
+4_gipaw_snapshots/5c_3x3x3_snapshot_4.cif,"5 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,5,2.00 2.01 2.04 2.07 2.19,6,2.19 3.56 3.84,1.128,-578.0,r3
+4_gipaw_snapshots/6c_3x3x3_snapshot_1.cif,"6 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,5,1.99 2.03 2.06 2.07 2.12 2.51,6,2.12 2.51 3.79,1.574,-693.7,r1
+4_gipaw_snapshots/6c_3x3x3_snapshot_2.cif,"6 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,6,1.95 1.96 2.02 2.11 2.28 2.31,6,2.28 2.31 3.78,1.589,-683.3,r1
+4_gipaw_snapshots/6c_3x3x3_snapshot_3.cif,"6 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,6,1.87 2.00 2.02 2.06 2.26 2.34,6,2.26 2.34 4.03,1.533,-688.8,r1
+4_gipaw_snapshots/6c_3x3x3_snapshot_4.cif,"6 coordinate snapshot, 3x3x3 k",54,H12O30Si11Sn,6,1.93 1.96 2.05 2.16 2.27 2.35,6,2.27 2.35 3.81,1.555,-758.3,r1

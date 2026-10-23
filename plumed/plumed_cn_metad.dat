@@ -1,0 +1,12 @@
+# Cross check of the Python metadynamics engine with PLUMED: same collective
+# variable, same well tempered bias. Fill the placeholders from the output of
+# scripts/03_metad.py (it prints the COORDINATION line with 1 based indices).
+# Units chosen to match ASE (Angstrom, eV, fs); confirm the UNITS syntax for
+# your PLUMED version with:  plumed manual --action UNITS
+UNITS LENGTH=A ENERGY=eV TIME=fs
+
+cn: COORDINATION GROUPA=__SN__ GROUPB=__WATER_O__ R_0=2.6 NN=6 MM=12
+
+metad: METAD ARG=cn SIGMA=0.07 HEIGHT=__HEIGHT_EV__ PACE=250 BIASFACTOR=10 TEMP=350 GRID_MIN=-0.5 GRID_MAX=__N_WATER_PLUS_HALF__ FILE=HILLS
+
+PRINT ARG=cn,metad.bias STRIDE=200 FILE=COLVAR

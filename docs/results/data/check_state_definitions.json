@@ -1,0 +1,110 @@
+{
+ "03_metad_n5a": {
+  "cn_windows": {
+   "boundary 1.25, upper 1.9": 9.34405577174297,
+   "boundary 1.25, upper 2.1": 9.344051250485036,
+   "boundary 1.25, upper 2.3": 9.34405125047839,
+   "boundary 1.30, upper 1.9": 12.859605494507393,
+   "boundary 1.30, upper 2.1": 12.859590773034022,
+   "boundary 1.30, upper 2.3": 12.859590773012386,
+   "boundary 1.35, upper 1.9": 15.244424294313564,
+   "boundary 1.35, upper 2.1": 15.244391108091428,
+   "boundary 1.35, upper 2.3": 15.24439110804265,
+   "boundary 1.40, upper 1.9": 17.21030020434201,
+   "boundary 1.40, upper 2.1": 17.210235159329805,
+   "boundary 1.40, upper 2.3": 17.210235159234205,
+   "boundary 1.45, upper 1.9": 18.633213080977864,
+   "boundary 1.45, upper 2.1": 18.6331071280505,
+   "boundary 1.45, upper 2.3": 18.63310712789478
+  },
+  "geometric_2_vs_1_water_within_2.8A": 17.276285579347505,
+  "geometric_2plus_vs_1_water": 17.276285579347505,
+  "geometric_fraction_of_weight_0_1_2_3plus": [
+   3.826147007571546e-06,
+   0.9973625722207029,
+   0.002633601632289629,
+   0.0
+  ]
+ },
+ "03_metad_n5b": {
+  "cn_windows": {
+   "boundary 1.25, upper 1.9": 7.479225756115571,
+   "boundary 1.25, upper 2.1": 7.4792209238607095,
+   "boundary 1.25, upper 2.3": 7.4792209237996055,
+   "boundary 1.30, upper 1.9": 11.267365761005077,
+   "boundary 1.30, upper 2.1": 11.267348918238962,
+   "boundary 1.30, upper 2.3": 11.267348918025979,
+   "boundary 1.35, upper 1.9": 13.473471728988349,
+   "boundary 1.35, upper 2.1": 13.473436172637923,
+   "boundary 1.35, upper 2.3": 13.4734361721883,
+   "boundary 1.40, upper 1.9": 15.295436620698677,
+   "boundary 1.40, upper 2.1": 15.295370419298923,
+   "boundary 1.40, upper 2.3": 15.295370418461788,
+   "boundary 1.45, upper 1.9": 16.390167224845545,
+   "boundary 1.45, upper 2.1": 16.390070945127142,
+   "boundary 1.45, upper 2.3": 16.39007094390966
+  },
+  "geometric_2_vs_1_water_within_2.8A": 16.254760457141316,
+  "geometric_2plus_vs_1_water": 16.254760457141316,
+  "geometric_fraction_of_weight_0_1_2_3plus": [
+   4.0675560226114074e-08,
+   0.9962629616619731,
+   0.0037369976624665405,
+   0.0
+  ]
+ },
+ "03_metad_n6a": {
+  "cn_windows": {
+   "boundary 1.25, upper 1.9": 8.911693466166374,
+   "boundary 1.25, upper 2.1": 8.911688908570754,
+   "boundary 1.25, upper 2.3": 8.911688908561006,
+   "boundary 1.30, upper 1.9": 12.291029075096654,
+   "boundary 1.30, upper 2.1": 12.291014965143276,
+   "boundary 1.30, upper 2.3": 12.291014965113096,
+   "boundary 1.35, upper 1.9": 14.46505328446578,
+   "boundary 1.35, upper 2.1": 14.465023727274113,
+   "boundary 1.35, upper 2.3": 14.465023727210895,
+   "boundary 1.40, upper 1.9": 16.208676859521425,
+   "boundary 1.40, upper 2.1": 16.208623214692707,
+   "boundary 1.40, upper 2.3": 16.20862321457797,
+   "boundary 1.45, upper 1.9": 17.125786717553524,
+   "boundary 1.45, upper 2.1": 17.12571327472244,
+   "boundary 1.45, upper 2.3": 17.125713274565356
+  },
+  "geometric_2_vs_1_water_within_2.8A": 16.174912824388006,
+  "geometric_2plus_vs_1_water": 16.174912824388006,
+  "geometric_fraction_of_weight_0_1_2_3plus": [
+   1.262978717346328e-06,
+   0.9961581857741068,
+   0.0038405512471759843,
+   0.0
+  ]
+ },
+ "03_metad_n6b": {
+  "cn_windows": {
+   "boundary 1.25, upper 1.9": 15.525873361377915,
+   "boundary 1.25, upper 2.1": 15.525868792459644,
+   "boundary 1.25, upper 2.3": 15.525868792454673,
+   "boundary 1.30, upper 1.9": 16.55017884167411,
+   "boundary 1.30, upper 2.1": 16.550172354409508,
+   "boundary 1.30, upper 2.3": 16.550172354402452,
+   "boundary 1.35, upper 1.9": 17.533868235632,
+   "boundary 1.35, upper 2.1": 17.53385914810458,
+   "boundary 1.35, upper 2.3": 17.533859148094695,
+   "boundary 1.40, upper 1.9": 18.162378363703713,
+   "boundary 1.40, upper 2.1": 18.16236709067489,
+   "boundary 1.40, upper 2.3": 18.162367090662627,
+   "boundary 1.45, upper 1.9": 18.9098205656075,
+   "boundary 1.45, upper 2.1": 18.90980599770674,
+   "boundary 1.45, upper 2.3": 18.909805997690892
+  },
+  "geometric_2_vs_1_water_within_2.8A": 17.311136600484275,
+  "geometric_2plus_vs_1_water": 17.311136600484275,
+  "geometric_fraction_of_weight_0_1_2_3plus": [
+   3.1044073877432203e-06,
+   0.9973945626106898,
+   0.0026023329819224177,
+   0.0
+  ]
+ }
+}

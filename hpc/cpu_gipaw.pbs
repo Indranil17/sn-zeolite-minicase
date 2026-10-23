@@ -1,0 +1,20 @@
+#!/bin/bash
+# PBS Pro job for one calculation folder written by 04_gipaw_inputs.py.
+# Submit from inside the folder, for example
+#   cd outputs/04_gipaw/<state>/frame_xxxxx && qsub ../../../../hpc/cpu_gipaw.pbs
+#   cd outputs/04_gipaw/reference_SnO2      && qsub ../../../hpc/cpu_gipaw.pbs
+#PBS -N snmini_gipaw
+#PBS -l select=1:ncpus=8:mpiprocs=8:ompthreads=1:mem=16gb:scratch_local=10gb
+#PBS -l walltime=4:00:00
+#PBS -j oe
+#PBS -m n
+
+cd "$PBS_O_WORKDIR"
+# Load your code first. Default, free: Quantum ESPRESSO with QE-GIPAW, built
+# from the same version (check `module avail` or use your own build):
+# module add <quantum-espresso module with gipaw.x>   # same version provides pw.x, ld1.x, gipaw.x
+export OMP_NUM_THREADS=1
+# export PATH=/path/to/your/qe/bin:$PATH
+# Licensed alternatives: module add castep, or module add vasp (POTCAR in the
+# species order of POSCAR line 6).
+bash job.sh > run.log 2>&1   # job.sh, written by 04, calls the code with the right seedname

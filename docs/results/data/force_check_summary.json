@@ -1,0 +1,50 @@
+{
+ "all": {
+  "frames": 60,
+  "force_rmse_meV_A": 79.65052983954881,
+  "force_mae_meV_A": 58.07955793653685,
+  "force_max_meV_A": 661.578110608962,
+  "energy_spread_rmse_meV_atom": 1.6317052863581027,
+  "verdict": "PASS",
+  "force_rmse_by_element": {
+   "H": 69.71274466105541,
+   "O": 64.1369780178546,
+   "Si": 104.67650514768907,
+   "Sn": 200.8316087562842
+  }
+ },
+ "5c": {
+  "frames": 30,
+  "force_rmse_meV_A": 79.34674072064382,
+  "force_mae_meV_A": 57.82912574750273,
+  "force_max_meV_A": 576.8301964359283,
+  "energy_spread_rmse_meV_atom": 1.0637232872575242,
+  "verdict": "PASS",
+  "force_rmse_by_element": {
+   "H": 69.92236672209387,
+   "O": 62.43320782181883,
+   "Si": 107.67649319671237,
+   "Sn": 191.92595853336692
+  }
+ },
+ "6c": {
+  "frames": 30,
+  "force_rmse_meV_A": 79.95316469316667,
+  "force_mae_meV_A": 58.32999012557097,
+  "force_max_meV_A": 661.578110608962,
+  "energy_spread_rmse_meV_atom": 1.569279777602722,
+  "verdict": "PASS",
+  "force_rmse_by_element": {
+   "H": 69.50249037506528,
+   "O": 65.7966447442657,
+   "Si": 101.58796322757291,
+   "Sn": 209.3587748156803
+  }
+ },
+ "mean_energy_difference_kJmol": {
+  "6c minus 5c": {
+   "mace": -6.2632807528019026,
+   "pbe": 3.430411897169815
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "code": "qe",
+ "model": "medium",
+ "mae_kJ_per_mol": 3.392945409335637,
+ "rows": [
+  {
+   "quantity": "T1_open1 E_hydrolysis",
+   "mace_d3": 8.512608346253954,
+   "mace": 39.36542285241796,
+   "pbe": 43.861074590616816,
+   "mace_minus_pbe": -4.495651738198858,
+   "flag": false
+  },
+  {
+   "quantity": "T1_open2 E_hydrolysis",
+   "mace_d3": -7.49936589542564,
+   "mace": 23.986544975778312,
+   "pbe": 23.022203064715637,
+   "mace_minus_pbe": 0.9643419110626721,
+   "flag": false
+  },
+  {
+   "quantity": "T1_open3 E_hydrolysis",
+   "mace_d3": -30.60618063041697,
+   "mace": 6.317131782590641,
+   "pbe": 13.328183727809835,
+   "mace_minus_pbe": -7.011051945219194,
+   "flag": false
+  },
+  {
+   "quantity": "T1_open4 E_hydrolysis",
+   "mace_d3": -14.842392390472831,
+   "mace": 11.532972349957411,
+   "pbe": 12.026084904989808,
+   "mace_minus_pbe": -0.4931125550323969,
+   "flag": false
+  },
+  {
+   "quantity": "T1_closed_1w E_bind_1w",
+   "mace_d3": -49.36236361857657,
+   "mace": -18.67877806372785,
+   "pbe": -21.742355272589606,
+   "mace_minus_pbe": 3.063577208861755,
+   "flag": false
+  },
+  {
+   "quantity": "T1_closed_2w E_bind_2w",
+   "mace_d3": -44.550508979081435,
+   "mace": -15.940662862065174,
+   "pbe": -11.610725764426226,
+   "mace_minus_pbe": -4.329937097638948,
+   "flag": false
+  }
+ ]
+}

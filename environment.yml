@@ -1,0 +1,20 @@
+name: snmini
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - ase>=3.23
+  - spglib
+  - pytest
+  - pip
+  - pip:
+      - mace-torch          # pulls PyTorch; on a GPU node install the CUDA build of torch first
+      - torch-dftd          # D3(BJ) for mace_mp(dispersion=True); mace-torch does not pull it
+      - -e .
+# Quantum ESPRESSO (pw.x, ld1.x) and QE-GIPAW (gipaw.x) are not pip packages:
+#   use your cluster's modules or build them (docs/runbook.md, step 5).
+# optional, for the PLUMED cross check of the metadynamics engine:
+#   conda install -c conda-forge plumed py-plumed

@@ -1,0 +1,19 @@
+#!/bin/bash
+# PBS Pro job for the MACE steps (01, 02, 03) on a GPU node.
+# Written for a PBS Pro cluster: check the queue, the resources and how you
+# activate the environment on your own account before submitting.
+# If the queue mixes GPU generations, add :gpu_mem=20gb to the select line: a
+# CUDA 13 build of PyTorch has no kernels for Pascal cards (sm_61).
+#PBS -N snmini_md
+#PBS -q gpu
+#PBS -l select=1:ncpus=4:ngpus=1:mem=16gb:scratch_local=10gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -m n
+
+cd "$PBS_O_WORKDIR"
+source "$HOME/miniforge3/bin/activate" snmini     # adapt
+# export XDG_CACHE_HOME=/path/on/shared/storage/.cache  # where the MACE model was downloaded
+export PYTHONUNBUFFERED=1                           # the log fills as the run goes
+STEP=${STEP:-03_metad}                              # qsub -v STEP=02_md_rdf ...
+python "scripts/${STEP}.py" > "${STEP}.log" 2>&1
